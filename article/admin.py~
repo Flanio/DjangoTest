@@ -1,9 +1,10 @@
 from django.contrib import admin
+<<<<<<< HEAD
 
 # Register your models here.
-
+=======
 from article.models import Article
 
 # Register your models here.
 admin.site.register(Article)
-
+>>>>>>> 02c0ccb7eb92752d4aa6e91fdf1e910c879d6d98

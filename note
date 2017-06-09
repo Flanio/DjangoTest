@@ -1,0 +1,6 @@
+urlpatterns 
+url(regex,view,kwargs,name)
+regex  regualr expression
+view   view路径
+kwargs 任意关键字参数可传递一个字典至目标view
+name   命名url，使url在django的其他地方使用，特别是在模板中
