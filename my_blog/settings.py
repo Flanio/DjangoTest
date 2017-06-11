@@ -31,7 +31,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'bootstrap_admin', #一定要放在 django.contrib.admin前面
+    #'bootstrap_admin', #一定要放在 django.contrib.admin前面
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -77,7 +77,7 @@ TEMPLATES = [
     },
 ]
 
-BOOTSTRAP_ADMIN_SIDEBAR_MENU = True
+#BOOTSTRAP_ADMIN_SIDEBAR_MENU = True
 
 WSGI_APPLICATION = 'my_blog.wsgi.application'
 
